@@ -7,7 +7,7 @@ const Version = '1.3 Alpha';
 const CurrCmds = 'warning,ping, disclaimer, info, purge, kick, ban, prefix, userinfo, serverinfo, whoisdvs, whoisjeff, whoiszac';
 var start = true
 
-const Token = 'NTgxNzA0Njg0NzgwMjU3MzAw.XTgIRQ.czitDwmRyI8vmPUvFBi0X_OFvzs';
+const Token = '';
 
 const snekfetch = require('snekfetch');
 const antispam = require('discord-anti-spam');
