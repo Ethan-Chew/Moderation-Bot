@@ -142,7 +142,7 @@ bot.on('message', async message => {
                     const member = message.guild.member(user1);
 
                     if (member) {
-                        member.kick('You were kicked from the SST Discord Server!').then(() => {
+                        member.kick('You were kicked from the Server!').then(() => {
                             message.reply(`Successfully Kicked ${user1.tag}`);
                         }).catch(err => {
                             message.reply('Unable to kick member.');
@@ -168,7 +168,7 @@ bot.on('message', async message => {
                     const member = message.guild.member(user2);
 
                     if (member) {
-                        member.ban('You were banned from the SST Discord Server!').then(() => {
+                        member.ban('You were banned from the Server!').then(() => {
                             message.reply(`Successfully Banned ${user2.tag}`);
                         }).catch(err => {
                             message.reply('Unable to ban member.');
@@ -186,15 +186,6 @@ bot.on('message', async message => {
             break;
 
             // Fun Commands
-        case ('whoisdvs'):
-            message.channel.send('Dhiivyesh? Who is he? I only know a Jeff Rao!');
-            break;
-        case ('whoisjeff'):
-            message.channel.send('Jeff? Jeff Rao?');
-            break;
-        case ('whoiszac'):
-            message.channel.send('Ah.. That floorball dood.. No u');
-            break;
         case ('il'):
             message.channel.send('Invite Link: https://discordapp.com/oauth2/authorize?client_id=581704684780257300&scope=bot');
             break;
