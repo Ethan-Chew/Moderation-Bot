@@ -1,6 +1,6 @@
 # Open Source Moderation Bot
 ## This is the source code for a discord bot which will help with moderation through commands.
-### This Source Code is still being updated.
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://bitbucket.org/lbesson/ansi-colors)
 
 ### How to install
 1. Make sure you’re logged on to the Discord Developer Website.
